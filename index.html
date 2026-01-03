@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AquaWatch | Water Safety</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AquaWatch | Water Safety</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +23,6 @@
     </ul>
 </nav>
 
-<!-- HERO -->
 <section id="home" class="hero">
     <div class="hero-content">
         <h1>Protect Your Water,<br>Protect Your Health</h1>
@@ -32,38 +31,28 @@
     </div>
 </section>
 
-<!-- ABOUT -->
 <section id="about" class="about">
     <h2>About AquaWatch</h2>
-    <p>
-        AquaWatch is a smart water monitoring and awareness platform that allows citizens
-        to check water safety, receive alerts, and report water contamination easily.
-    </p>
+    <p>AquaWatch is a smart water monitoring and awareness platform that allows citizens to check water safety, receive alerts, and report contamination easily.</p>
 </section>
 
-<!-- CHECK WATER -->
 <section id="check" class="check">
     <h2>Check Water Quality</h2>
     <p>Enter your area to check water safety.</p>
-
     <input type="text" id="area" placeholder="Enter your area">
     <br>
     <button onclick="checkWater()">Check</button>
-
     <p id="result"></p>
 </section>
 
-<!-- ALERTS -->
 <section id="alerts" class="alerts">
     <h2>Water Safety Alerts</h2>
     <p>Latest water safety warnings in your area:</p>
-
+    <input type="text" id="alertArea" placeholder="Enter your area">
     <div id="alertBox">No alerts yet.</div>
-
     <button onclick="showAlert()">Check Alerts</button>
 </section>
 
-<!-- REPORT -->
 <section id="report" class="report">
     <h2>Report Water Problem</h2>
     <form onsubmit="submitReport(event)">
@@ -74,7 +63,6 @@
     </form>
 </section>
 
-<!-- CONTACT -->
 <section id="contact" class="contact">
     <h2>Contact Us</h2>
     <p>Email: support@aquawatch.com</p>
