@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f2f9ff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #0a3d62;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #00b894;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.about, .contact {
+    background: white;
+}
+
+/* CHECK */
+.check input {
+    padding: 12px;
+    width: 250px;
+}
+
+/* REPORT */
+.report form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.report input, .report textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+}
+
+.report button {
+    width: 100%;
+    padding: 12px;
+    background: #0984e3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #0a3d62;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
