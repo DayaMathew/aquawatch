@@ -9,11 +9,9 @@ body {
     background: #f2f9ff;
 }
 
-/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 15px 40px;
     background: #0a3d62;
     position: sticky;
@@ -31,23 +29,23 @@ body {
     display: flex;
 }
 
-.navbar ul li {
+.navbar li {
     margin-left: 20px;
 }
 
-.navbar ul li a {
+.navbar a {
     color: white;
     text-decoration: none;
 }
 
-/* HERO */
+/* Hero */
 .hero {
     height: 90vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     color: white;
 }
 
@@ -62,15 +60,13 @@ body {
 .hero button {
     margin-top: 20px;
     padding: 12px 25px;
-    border: none;
     background: #00b894;
+    border: none;
     color: white;
-    font-size: 16px;
     border-radius: 6px;
-    cursor: pointer;
 }
 
-/* SECTIONS */
+/* Sections */
 section {
     padding: 60px 10%;
     text-align: center;
@@ -80,71 +76,43 @@ section {
     background: white;
 }
 
-/* CHECK, ALERTS, REPORT CARDS */
+/* Cards */
 .check, .alerts, .report {
     background: white;
-    margin: 40px auto;
-    padding: 40px 20px;
     max-width: 600px;
+    margin: 40px auto;
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.check h2, .alerts h2, .report h2 {
-    color: #0a3d62;
-    margin-bottom: 15px;
-}
-
-/* INPUTS */
-.check input,
-.report input,
-.report textarea {
+input, textarea {
     width: 90%;
     padding: 12px;
     margin: 10px 0;
     border-radius: 6px;
     border: 1px solid #ccc;
-    font-size: 16px;
 }
 
-/* BUTTONS */
-.check button,
-.alerts button,
-.report button {
+button {
     background: #00b894;
     color: white;
     border: none;
     padding: 12px 25px;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px;
-    transition: 0.3s;
 }
 
-.check button:hover,
-.alerts button:hover,
-.report button:hover {
-    background: #019875;
-}
-
-/* RESULTS & ALERT BOX */
-#result {
-    margin-top: 15px;
-    font-size: 18px;
-}
-
+/* Alert box */
 #alertBox {
     background: #ffeeba;
-    border-left: 6px solid #f39c12;
     padding: 15px;
     margin: 20px auto;
-    border-radius: 5px;
-    width: 90%;
-    font-weight: 600;
+    border-left: 6px solid #f39c12;
+    border-radius: 6px;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
     background: #0a3d62;
     color: white;
